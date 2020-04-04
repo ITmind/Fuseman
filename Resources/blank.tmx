@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="34" height="25" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" name="objects" tilewidth="30" tileheight="30">
+  <image source="objects.png" width="240" height="450"/>
+  <tile id="60">
+   <properties>
+    <property name="Type" value="wall1"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Type" value="wall2"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Type" value="wall3"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="Type" value="wall4"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="Type" value="wall5"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Type" value="wall6"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Type" value="wall7"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="Type" value="wall8"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="Type" value="wall9"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="121" name="meta_tiles30x30" tilewidth="30" tileheight="30" spacing="1">
+  <image source="meta_tiles30x30.png" width="61" height="31"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkBskWGEA8WBxB7JbRt0x6o5Rd4y6Y9Qdo+4YdceoO0aqOwa6nTjqDvz2DwRGBrjUSKBhXOISeMwg1h0A6FVoMw==
+  </data>
+ </layer>
+ <layer name="Foreground" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Apwb9MnnkgJK2CJgAAAD/MdaAWHTgAHw==
+  </data>
+ </layer>
+ <layer name="Meta" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1qENAEAMw8Cs3e1fhSZPG2BLwT3YSTIlu6zFselgOpgOpoPpYDqYDqaDtTmu/0Qd//sueTX7TBo=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="34" height="25"/>
+ <objectgroup name="Bonuses" width="34" height="25"/>
+</map>

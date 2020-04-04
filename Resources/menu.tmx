@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="34" height="25" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" name="objects" tilewidth="30" tileheight="30">
+  <image source="objects.png" width="240" height="450"/>
+ </tileset>
+ <tileset firstgid="121" name="meta_tiles30x30" tilewidth="30" tileheight="30">
+  <image source="meta_tiles30x30.png" width="61" height="31"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="34" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1XQQrAMAjzJT2M/f+Nuw6xJgqjMnIIHqoxREvpMrM1BNdhvHV4XT7u8n1OVhOdsVzVXlHfLJep3+nP+FBttBMVP1h9TM/KjJk5d7Si/ZhyX24CVX6W0+tAnB0dzHmkA8WODhTlh/yQH/JDfvzbjwnv7Ul0/hhf4QF4qA6MSA0AAA==
+  </data>
+ </layer>
+ <layer name="Foreground" width="34" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwUoAtFA+0OdRwA6VmUdMN5Jppi0ZT0w3EmmmLBVPDDeSYORjCA6aWWmFBSzNHwSgYBQMLACiI5QpIDQAA
+  </data>
+ </layer>
+ <layer name="Meta" width="34" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VwQrAMAhD/e3263fYDqVkaLQbHhKQgtL4sKU1kyRJqmkE4g9Pr0+Wg62P4JrhYDxRbj5R5Vh9vJ6IdYJ8huPNKzKPnf/E/Yh4IvYv5uF57me5RpWD8ew2DwPcVQ7Gs/P7wdQzezQPv97lv5VuXcNXFX9IDQAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="34" height="25">
+  <object name="SpawnPoint1" type="SpawnPoint" x="90" y="270" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint2" type="SpawnPoint" x="900" y="630" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Bonuses" width="34" height="25"/>
+</map>

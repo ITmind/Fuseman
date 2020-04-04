@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="34" height="25" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" name="objects" tilewidth="30" tileheight="30">
+  <image source="objects.png" width="240" height="450"/>
+  <tile id="60">
+   <properties>
+    <property name="Type" value="wall1"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Type" value="wall2"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Type" value="wall3"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="Type" value="wall4"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="Type" value="wall5"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Type" value="wall6"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Type" value="wall7"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="Type" value="wall8"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="Type" value="wall9"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="121" name="meta_tiles30x30" tilewidth="30" tileheight="30" spacing="1">
+  <image source="meta_tiles30x30.png" width="61" height="31"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztltEKgCAMRfcV6ZP54P9/Y0/BGrnNOXKBweXCJdfpUlkBgBJE50JF4cAsm+PJ0T6QhuPoqDpJYsQcjfHq4Byj1AfXy2jOcWr7oL1Y8t49jfSBZ1hzzJeQJ0MfM06V4J3jT33Uidzj+aBrqyH3eF+kORrvSdMHt35E2u9plP0lyn4bhWP1f+Lm4K+/QvfBnZOJenkW5mg4LlASZCs=
+  </data>
+ </layer>
+ <layer name="Foreground" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlksOABEQRF3Myv3vZE109KeqkXgbMqKrpkxGl/I2zbg2P5P2t8V8Hi36Gh0kEV/evShNViZaovpVsSaNSBg1PWTlsavFyhhZ1+Kd+V5e0F6Qebzyffz/x8gteWRy+g5cYe1hor2ZBqannR+UNuqs2efzkem4pRbv
+  </data>
+ </layer>
+ <layer name="Meta" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztleEKwCAIhH3tfPqxH0GBXTqlueGB3I+ivo6sRkQtSb2pLBy3imNWljuozYMVYysf99GwImflPOQrWfrFmwfiGzlY6bv1kEv8fd2IfrHkIZ2rj3nP6clD4niqyDy+cj9O9ctu3l/ej+g/wlNIEf0SoWwclgyL4/z+VUQXShOnhA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="34" height="25">
+  <object name="SpawnPlayer" x="30" y="330" width="30" height="30"/>
+  <object name="SpawnPoint1" type="SpawnPoint" x="510" y="240" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint2" type="SpawnPoint" x="570" y="240" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint3" type="SpawnPoint" x="630" y="240" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint4" type="SpawnPoint" x="960" y="330" width="30" height="30">
+   <properties>
+    <property name="character" value="snake.png"/>
+   </properties>
+  </object>
+  <object name="Exit" x="990" y="330" width="30" height="30"/>
+ </objectgroup>
+ <objectgroup name="Bonuses" width="34" height="25">
+  <object name="Bonus2" type="5" x="600" y="300" width="30" height="30"/>
+  <object name="Bonus1" type="1" x="270" y="450" width="30" height="30"/>
+ </objectgroup>
+</map>

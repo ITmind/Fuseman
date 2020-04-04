@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="19" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="maptile" tilewidth="40" tileheight="40">
+  <image source="maptile.png" width="128" height="256"/>
+  <tile id="14">
+   <properties>
+    <property name="Type" value="wall1"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Type" value="wall2"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Type" value="wall3"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Type" value="wall4"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="19" name="meta_40x40" tilewidth="40" tileheight="40">
+  <image source="meta_40x40.png" width="80" height="40"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4MSCuaiMWWiEOelgB8uoHaN2jNoxascQtAO5TB/qdlC7TqI3BgBrFQoM
+  </data>
+ </layer>
+ <layer name="Foreground" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg4IJiBiQ2jE8JoJY5A23HKBgFo2AUDDXAxUDd8nw42oFuNrod2MRJdQtMLQA8iQFp
+  </data>
+ </layer>
+ <layer name="Meta" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJwTZmBgEKYDphWghx3I9ozaMWrHqB2jdgwVO2hZPg6UHUMVAwBSiwh3
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="25" height="19">
+  <object name="Exit" x="960" y="240" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup name="Bonuses" width="25" height="19"/>
+</map>

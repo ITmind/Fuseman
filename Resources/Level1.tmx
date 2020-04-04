@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="34" height="25" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" name="objects" tilewidth="30" tileheight="30">
+  <image source="objects.png" width="240" height="450"/>
+  <tile id="60">
+   <properties>
+    <property name="Type" value="wall1"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="Type" value="wall2"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="Type" value="wall3"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="Type" value="wall4"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="Type" value="wall5"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="Type" value="wall6"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="Type" value="wall7"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="Type" value="wall8"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="Type" value="wall9"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="121" name="meta_tiles30x30" tilewidth="30" tileheight="30" spacing="1">
+  <image source="meta_tiles30x30.png" width="61" height="31"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKACEMRNEcw8pYeP8z2igEJdHKSTELv1lk8xBxq4jUJCmwLA5roYMOOs76DHV/dFMz/XKs2brN/+2wIR3Z9gN9PjxPpv+t0kHHowN9bumI5yNaT7SmbHnvy+U7L44BfBll9w==
+  </data>
+ </layer>
+ <layer name="Foreground" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztVkEOwzAI4295T/5/7WWRkGuDabXTZimibRJqXCCN+C0sGAr7M59tgFUD16n9zE6B8ZyxxfyOe/zsHvk4caFeKm61jllXg8yT6aH2fVOPLZ6zfauYz+sUlrjOfB09WR4yLR09mMU9rHYqvy5UrJX+qk6e1OZED8XhvBtz6A0WWIxT1UHXLzs4emC8FZenwPgZT9Ur2XfJMUwwrZcqT5XvCbB/qL52nqm6Zfydb+eeL04ck/MWtVL5gXk4yeeOq+rXLu/Kj8OXndcdz8qvow/z69Z3l58O/wPnf2Xitzr32f9Nzus3/Q35Tvol6ycTHf6IuADYpXaE
+  </data>
+ </layer>
+ <layer name="Meta" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztldsOwjAMQ/Pb2dfzwqTqYLvZBIgHIlWBXlLbTbKuqv6R8Q07ME4jjn6ur77gEw8Vh/PKr7Hv8DlHm/WuV/7qf+LjeFEvx9vtU36iB99R6eHOfVKPNvPq3BHW131rbHJRv09rM6/20ZSWEz2U5127HpDqI511XJP+rk4Y2915Vw+HYc07lVvO0voBT56uDlIdTXBMPPkmLO6eHQ7yV3tdr1TvsnLgfe/KD+JSfZ57HZ5Jvbi+nuLx7nVu981V51TOT/KPukz8JD+Yh5N3c+9DrKqvX8mPVJ8TvPzu8k1V/BT3ij7pu+vydpeftKSP4k+8CYfL6YRT+R3OhIV4GWtXN6qfXNHhP6oezaT34Q==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="34" height="25">
+  <object name="Exit" x="990" y="330" width="30" height="30"/>
+  <object name="SpawnPlayer" x="30" y="30" width="30" height="30"/>
+  <object name="SpawnPoint4" type="SpawnPoint" x="510" y="150" width="30" height="30">
+   <properties>
+    <property name="character" value="gost.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint5" type="SpawnPoint" x="690" y="360" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint2" type="SpawnPoint" x="420" y="480" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint1" type="SpawnPoint" x="210" y="390" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint3" type="SpawnPoint" x="510" y="360" width="30" height="30">
+   <properties>
+    <property name="character" value="ball.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Bonuses" width="34" height="25">
+  <object name="Bonus1" type="5" x="480" y="330" width="30" height="30"/>
+  <object name="Bonus2" type="1" x="930" y="540" width="30" height="30"/>
+ </objectgroup>
+</map>

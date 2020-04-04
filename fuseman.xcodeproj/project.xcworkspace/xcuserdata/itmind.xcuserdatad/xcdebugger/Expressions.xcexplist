@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Level replayClick:]:Level.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentLevel">
+            </PersistentString>
+            <PersistentString
+               value = "isPuzzle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Map generateMap:numEnemy:]:Map.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[enemy valueForKey:@&quot;x&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BrowserViewController netServiceBrowser:didFindService:moreComing:]:BrowserViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_ownEntry">
+            </PersistentString>
+            <PersistentString
+               value = "self.ownName">
+            </PersistentString>
+            <PersistentString
+               value = "_ownName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultiplayerLevelBonjour reciveData:packetID:]:MultiplayerLevelBonjour.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "minutes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultiplayerLevelBonjour sendCurrentGameStatus:]:MultiplayerLevelBonjour.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ptrData[4]">
+            </PersistentString>
+            <PersistentString
+               value = "ptrData[0]">
+            </PersistentString>
+            <PersistentString
+               value = "ptrData[7]">
+            </PersistentString>
+            <PersistentString
+               value = "ptrData[5]">
+            </PersistentString>
+            <PersistentString
+               value = "ptrData[1]">
+            </PersistentString>
+            <PersistentString
+               value = "ptrData[8]">
+            </PersistentString>
+            <PersistentString
+               value = "ptrData[6]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Map numWall]:Map.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "tileArray[x][y]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Level goFormX:fromY:toX:toY:]:Level.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "allowDiags">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Level tick:]:Level.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "node.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultiplayerBonjour(NSStreamDelegate) stream:handleEvent:]:MultiplayerBonjour.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_inStream.streamStatus">
+            </PersistentString>
+            <PersistentString
+               value = "len">
+            </PersistentString>
+            <PersistentString
+               value = "dataLength">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Hud setBonusLabelPower:life:numbomb:speed:]:Hud.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "speedLabel.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultiplayerBonjour send:packetID:]:MultiplayerBonjour.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "packetID==NETWORK_B_MAP">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Map init]:Map.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentTileSet">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultiplayerBonjour send:]:MultiplayerBonjour.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Level initLevelWithFilename:]:Level.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "isPuzzle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultiplayerBonjour send:ofLength:]:MultiplayerBonjour.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "pIntData[0]">
+            </PersistentString>
+            <PersistentString
+               value = "pIntData[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Level isBonus:isTileCoord:]:Level.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[map tileArrayAtRow:tileCoord.x col:tileCoord.y]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Level loadMapObjects]:Level.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "allowDiags">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Character initOfType:]:Character.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mirrored">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Player init]:Player.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parent">
+            </PersistentString>
+            <PersistentString
+               value = "map">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultiplayerLevelBonjour executeNetworkQueue:]:MultiplayerLevelBonjour.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "player2.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Player stepAI]:Player.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "direction">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
